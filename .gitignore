@@ -45,36 +45,13 @@ htmlcov/
 *.marshall
 *.marshall1.3
 
-# 数据文件（排除结果输出目录，但保留结果图片）
-数据采集与预处理结课报告2024.doc
 
 # Scrapy爬虫运行产生的数据（排除）
 crawls/
 结果文件/
 
-# 图片文件（保留，用于README展示）
-# 评论和博文词云
-词云/comment_cy.png
-词云/content_cy.png
-# 情感分析结果图
-情感分析/original_comment.png
-情感分析/original_content.png
-情感分析/updated_comment.png
-情感分析/updated_content.png
-# 热度地图HTML
-热度图/地图降维-求和.html
-热度图/地图情感均值.html
-
 # 训练好的模型文件（保留）
 情感分析/sentiment.marshal1.3
-
-# 文本资源文件（保留）
-情感分析/neg.txt
-情感分析/pos.txt
-情感分析/停用词表.txt
-数据清洗/停用词表.txt
-词云/停用词表.txt
-热度图/停用词表.txt
 
 # 日志文件
 *.log
